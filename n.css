@@ -3,28 +3,17 @@ body{
 
 }
 
-@font-face {
-    font-family: 'roboto';
-    src: url(''); 
-    font-weight: 400, 700;
-    font-style: normal;
-  }
+
   
 
     
 
 
 @media screen and (max-width: 375px) {
-    
-        .container {
-          flex-direction: column;
-        }
-      
-        .image,
-        .text {
-          width: 100%; 
-        }
-      }
+   
+
+
+}
     
 
 
@@ -168,5 +157,7 @@ font-size: 16px;
 
 .fa-solid{
     color: hsl(4, 100%, 67%);
+    /* font-size: larger; */
+
 }
 
